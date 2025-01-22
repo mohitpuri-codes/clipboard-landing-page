@@ -42,3 +42,15 @@
     gap: 50px;
   }
 }
+
+/* supercharge workflow component */
+
+@media only screen and (max-width: 375px) {
+  .workflow-details {
+    display: flex;
+    flex-direction: column;
+  }
+  .supercharge {
+    padding: 20px;
+  }
+}

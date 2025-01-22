@@ -132,3 +132,7 @@ p {
 .workflow-detail img {
   width: 50px;
 }
+
+.access-clipboard-container {
+  padding: 20px;
+}
