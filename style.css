@@ -107,3 +107,28 @@ p {
   max-width: 335px;
   justify-content: center;
 }
+
+.workflow-details {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 70px;
+}
+
+.workflow-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 32ch;
+  gap: 20px;
+  text-align: center;
+}
+
+.workflow-detail1 {
+  padding-top: 25px;
+}
+
+.workflow-detail img {
+  width: 50px;
+}
