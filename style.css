@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: hsl(171, 66%, 44%); */
+  font-family: "Bai Jamjuree", serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.main-header__banner {
+  background: url("images/bg-header-desktop.png") no-repeat 0 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+}
+
+.main-header__banner img {
+  padding: 80px 0 60px 0;
+}
+
+.main-header__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 565px;
+  width: 100%;
+  gap: 15px;
+  text-align: center;
+}
+
+.main-header__button {
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: white;
+  margin: 20px 7px;
+  border: none;
+}
+
+.main-header__button1 {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 15px 6px -6px rgba(148, 240, 226, 0.3);
+}
+
+.main-header__button2 {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 15px 6px -6px rgba(205, 206, 206, 0.26);
+}
