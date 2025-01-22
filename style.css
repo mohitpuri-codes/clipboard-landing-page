@@ -26,6 +26,10 @@ h1 {
   font-size: 35px;
 }
 
+p {
+  color: hsl(0, 0%, 57%);
+}
+
 .main-header__banner {
   background: url("images/bg-header-desktop.png") no-repeat 0 80%;
   background-repeat: no-repeat;
