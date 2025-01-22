@@ -72,7 +72,8 @@ p {
 
 /* clipboard-details */
 
-.clipboard-details {
+.clipboard-details,
+.access-clipboard-container {
   margin: 100px 0;
   display: flex;
   flex-direction: column;
