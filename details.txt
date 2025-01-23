@@ -57,3 +57,5 @@
   Privacy Policy
   Press Kit
   Install Guide
+
+  check for footer
